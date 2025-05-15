@@ -41,8 +41,8 @@ app.post('/formulario', (req, res) => {
   res.send("Usuario inscrito correctamente");
 });
 
-app.use((req, res) => {
-  res.status(404).send('Recurso no encontrado...')
+app.use((req, res)=>{
+    res.status(404).send(`404. Resource not found`);
 });
 
 app.listen(port, () => {
