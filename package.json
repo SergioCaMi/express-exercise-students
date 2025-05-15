@@ -9,12 +9,14 @@
     "server2": "nodemon server2.js",
     "server3": "node --watch server3.js",
     "server3b": "node --watch server3b.js",
-    "server4": "node --watch server4.js"
+    "server4": "node --watch server4.js",
+    "server5": "node --watch server5.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "is-palindrome": "^0.3.0"
   }
 }
