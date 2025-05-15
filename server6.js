@@ -6,7 +6,7 @@ const port = 3000;
 
 
 app.use(express.static("server-6-static-files"));
-app.use(express.urlencoded({ extended: true })); // Middleware to parse form data
+app.use(express.urlencoded({ extended: true })); 
 
 app.get('/formulario', (req, res) => {
   res.status(200).send(`
