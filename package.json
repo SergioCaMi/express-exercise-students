@@ -8,9 +8,8 @@
     "server1": "node --watch server1.js",
     "server2": "nodemon server2.js",
     "server3": "node --watch server3.js",
-    "server3b": "node --watch server3b.js"
-
-
+    "server3b": "node --watch server3b.js",
+    "server4": "node --watch server4.js"
   },
   "keywords": [],
   "author": "",
