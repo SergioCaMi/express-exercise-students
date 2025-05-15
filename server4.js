@@ -2,6 +2,8 @@ const express = require("express");
 const path = require("path");
 const { palindrome } = require('./utils/palindrome/index.js');
 const app = express();
+const port = 3000;
+
 
 app.get("/check/:check", (req, res) => {
     console.log("Petición recibida");
@@ -13,6 +15,6 @@ app.use((req, res)=>{
 });
 
 
-app.listen(3000, () => {
-    console.log(`Escuchando peticiones en http://localhost:3000`);
+app.listen(port, () => {
+    console.log(`Escuchando peticiones en http://localhost:${port}`);
 });

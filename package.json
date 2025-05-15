@@ -10,7 +10,8 @@
     "server3": "node --watch server3.js",
     "server3b": "node --watch server3b.js",
     "server4": "node --watch server4.js",
-    "server5": "node --watch server5.js"
+    "server5": "node --watch server5.js",
+    "server6": "node --watch server6.js"
   },
   "keywords": [],
   "author": "",

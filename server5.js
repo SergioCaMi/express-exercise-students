@@ -2,6 +2,8 @@ const express = require("express");
 const path = require("path");
 const isPalindrome = require('is-palindrome');
 const app = express();
+const port = 3000;
+
 
 app.get("/check/", (req, res) => {
     console.log(req.query.palabra);
@@ -13,6 +15,6 @@ app.use((req, res)=>{
 });
 
 
-app.listen(3000, () => {
-    console.log(`Escuchando peticiones en http://localhost:3000`);
+app.listen(port, () => {
+    console.log(`Escuchando peticiones en http://localhost:${port}`);
 });
